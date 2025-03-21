@@ -40,6 +40,27 @@ Large data applications rely on storing data in massive, sparse graphs with mill
 <p align="center"><em>Figure 2: Clustering performance with node embeddings generated via subsampled APPR. Higher is better.</em></p>
 
 
+
+
+Based on your codebase and structure, here’s a `README.md` **project directory section** to describe the components clearly for your users. This is written in Markdown and ready to paste directly into your README:
+
+---
+
+## Project Structure
+
+```
+.
+├── appr.py                   # Core APPR algorithm and linear system solvers
+├── clustering.py            # Clustering methods using APPR vectors
+├── data_loader.py           # Dataset loading and Laplacian pre-processing
+├── misc.py                  # Utility functions: sampling, one-hot, block diagonal, etc.
+├── RelaxRegularizeAPPR.py   # Online node labeling via regularization and relaxation
+├── sparsify.py              # Graph sparsification routines (uniform, resistive, influencer)
+├── Offline_sparsification_demo.ipynb  # Demo notebook for offline sparsification tasks
+├── Online_sparsification_demo.ipynb   # Demo notebook for online learning tasks
+├── graph_datasets/          # Directory containing preprocessed graph datasets (.npz files)
+```
+ 
 ## Citation
 
 If you use this code or build on this work, please cite:
