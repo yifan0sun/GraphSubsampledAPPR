@@ -4,9 +4,9 @@ This repository contains the official implementation of the method described in 
 
 **Fast online node labeling with graph subsampling**  
 Yushen Huang, Ertai Luo, Reza Babenezhad, Yifan Sun
-arXiv: [link to paper] **TBD**
+<!-- arXiv: [link to paper] **TBD** -->
 
-**[Read the paper here](LINK_TO_PAPER)**
+<!--**[Read the paper here](LINK_TO_PAPER)**-->
 
 ---
 
@@ -60,7 +60,7 @@ Based on your codebase and structure, here’s a `README.md` **project directory
 ├── Online_sparsification_demo.ipynb   # Demo notebook for online learning tasks
 ├── graph_datasets/          # Directory containing preprocessed graph datasets (.npz files)
 ```
- 
+ <!--
 ## Citation
 
 If you use this code or build on this work, please cite:
@@ -72,7 +72,7 @@ If you use this code or build on this work, please cite:
   journal={arXiv preprint arXiv:TBD},
   year={2025}
 }
-```
+```-->
 
 
 ## Contact
