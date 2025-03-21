@@ -27,16 +27,17 @@ Large data applications rely on storing data in massive, sparse graphs with mill
 
 ## Results
 
-Our method outperforms standard APPR and weighted majority baselines on node labeling and clustering, especially in memory-constrained regimes:
+<p align="center">
+  <img src="figs/all_clustering_tradeoff.png" width="600">
+</p>
+<p align="center"><em>Figure 1: Performance of different variants of APPR on online node labeling. Lower is better.</em></p>
 
-| Task                | Method                  | Accuracy / Score |
-|---------------------|--------------------------|------------------|
-| Online Node Labeling | APPR (no subsampling)     | 87.5%            |
-|                     | Subsampled + DualCorrect | **89.2%**        |
-| Clustering          | APPR + KNN               | 73.4%            |
-|                     | Subsampled + DualCorrect | **75.8%**        |
+<br/>
 
-*Exact numbers and plots available in the paper and `results/` folder.*
+<p align="center">
+  <img src="figs/all_learning_misclass_tradeoff.png" width="600">
+</p>
+<p align="center"><em>Figure 2: Clustering performance with node embeddings generated via subsampled APPR. Higher is better.</em></p>
 
 
 ## Citation
@@ -52,13 +53,6 @@ If you use this code or build on this work, please cite:
 }
 ```
 
-## Contact
-
-For questions or feedback, feel free to contact:
-
-- Yifan Sun: yifan.0.sun@gmail.com
-
- 
 
 ## Contact
 Yifan Sun : yifan.0.sun@gmail.com
