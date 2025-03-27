@@ -1,14 +1,13 @@
 # Fast online node labeling with graph subsampling
 **Yushen Huang, Ertai Luo, Reza Babenezhad, Yifan Sun**
 
-<!--
+
 This repository contains the official implementation of the method described in our paper:
 
 **Fast online node labeling with graph subsampling**  
 Yushen Huang, Ertai Luo, Reza Babenezhad, Yifan Sun
- arXiv: [link to paper] **TBD** -->
 
-<!--**[Read the paper here](LINK_TO_PAPER)**-->
+**[Read the paper here](https://arxiv.org/abs/2503.16755)**
 
 ---
 
